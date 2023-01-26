@@ -1,0 +1,15 @@
+class Solution {
+public:
+    bool isPerfectSquare(int num) {
+     bool ans  = false;
+     for(long long i = 0;i*i<=num; i++)
+     {
+         if(i*i==num)
+         {
+             ans = true;
+             break;
+         }
+     }
+        return ans;
+    }
+};
