@@ -1,0 +1,13 @@
+#define ll long long
+
+class Solution {
+public:
+    ll getSum(int a, int b) {
+        if(b==0)
+        return a;
+        if(a==0)
+        return b;
+
+       return log10(pow(10,a)*pow(10,b));
+    }
+};
